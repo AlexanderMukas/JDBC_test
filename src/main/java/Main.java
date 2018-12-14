@@ -9,7 +9,7 @@ public class Main {
     static final String PASS = "1";
 
     public static void main(String[] args) {
-        System.out.println("First Gradle project");
+        System.out.println("First Gradle project by Alexander Mukas");
 
         Connection conn = null;
         Statement stmt = null;
