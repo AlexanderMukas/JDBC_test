@@ -24,8 +24,7 @@ public class Main {
             //STEP 4: Execute a query
             System.out.println("Creating statement...");
             stmt = conn.createStatement();
-            String sql;
-            sql = "SELECT ID, firstName, lastName, age FROM Persons";
+            String sql = "SELECT ID, firstName, lastName, age FROM Persons";
             ResultSet rs = stmt.executeQuery(sql);
 
             //STEP 5: Extract data from result set
